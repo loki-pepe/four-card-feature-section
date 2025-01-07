@@ -6,14 +6,14 @@
 }
 
 @font-face {
-    font-family: "Poppins SemiBold";
+    font-family: "Poppins";
     src: url("./fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
     font-style: normal;
     font-weight: 600;
 }
 
 @font-face {
-    font-family: "Poppins ExtraLight";
+    font-family: "Poppins";
     src: url("./fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
     font-style: normal;
     font-weight: 200;
