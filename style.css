@@ -50,6 +50,7 @@ article {
     box-shadow: 0 15px 30px -11px rgb(131 166 210 / 0.5);
     padding: 28px;
     border-radius: 8px;
+    position: relative;
 }
 
 article p {
@@ -68,6 +69,29 @@ body {
     color: var(--gray);
     background-color: var(--off-white);
     padding: 85px 32px;
+}
+
+.decoration {
+    height: 3.55px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Decoration colors*/
+.aquamarine {
+    background-color: var(--aquamarine);
+}
+.tomato {
+    background-color: var(--tomato);
+}
+.yellow {
+    background-color: var(--yellow);
+}
+.blue {
+    background-color: var(--blue);
 }
 
 header {
