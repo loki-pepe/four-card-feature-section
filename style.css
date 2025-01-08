@@ -59,8 +59,25 @@ header {
     text-align: center;
 }
 
-h1 {
+header p {
+    font-size: var(--text-1);
+    font-weight: 400;
+    line-height: 1.6667;
+    letter-spacing: 0.00625rem;
+}
 
+h1 {
+    font-size: var(--heading-1-mobile);
+    letter-spacing: 0.010625rem;
+    margin-bottom: 16px;
+}
+
+.heading-light {
+    font-weight: 200;
+}
+
+.heading-bold {
+    font-weight: 600;
 }
 
 img {
@@ -68,6 +85,6 @@ img {
     max-width: 100%;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
+p {
+    opacity: 0.5;
 }
