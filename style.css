@@ -19,6 +19,16 @@
     font-weight: 200;
 }
 
+:root {
+    /* Colors */
+    --off-white: #FAFAFA;
+    --gray: #4D4F62;
+    --aquamarine: #44D3D2;
+    --tomato: #EA5454;
+    --yellow: #FCAE4A;
+    --blue: #549EF2;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
