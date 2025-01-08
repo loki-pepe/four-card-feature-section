@@ -43,6 +43,9 @@ body {
     line-height: 1.5;
     font-family: "Poppins", sans-serif;
     font-style: normal;
+    color: var(--gray);
+    background-color: var(--off-white);
+    padding: 85px 32px;
 }
 
 img {
