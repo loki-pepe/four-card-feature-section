@@ -65,6 +65,8 @@ article p {
     line-height: 1.7692;
     letter-spacing: 0.005625rem;
     margin-bottom: 33px;
+    position: relative;
+    top: 6px;
 }
 
 body {
