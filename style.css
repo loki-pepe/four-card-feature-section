@@ -75,7 +75,10 @@ body {
     font-weight: 400;
     color: var(--gray);
     background-color: var(--off-white);
-    padding: 0 32px;
+}
+
+.container {
+    padding: 32px;
 }
 
 .decoration {
@@ -102,7 +105,7 @@ body {
 
 header {
     text-align: center;
-    margin: 32px 0 64px;
+    margin-bottom: 64px;
     display: grid;
     grid-template-columns: minmax(16rem, 33.75rem);
     justify-content: center;
@@ -143,14 +146,13 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(16rem, 21.875rem));
     justify-content: center;
     gap: 24px;
-    padding-bottom: 32px;
 }
 
 p {
     opacity: 0.5;
 }
 
-@media (min-width: 49.25rem) {
+@media (min-width: 37.5rem) {
     
     h1 {
         font-size: var(--heading-1-desktop);
