@@ -50,6 +50,7 @@ article {
     box-shadow: 0 15px 30px -11px rgb(131 166 210 / 0.5);
     padding: 28px;
     border-radius: 8px;
+    overflow: hidden;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -74,7 +75,7 @@ body {
     font-weight: 400;
     color: var(--gray);
     background-color: var(--off-white);
-    padding: 85px 32px;
+    padding: 0 32px;
 }
 
 .decoration {
@@ -83,7 +84,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 8px 8px 0 0;
 }
 
 /* Decoration colors*/
@@ -102,7 +102,7 @@ body {
 
 header {
     text-align: center;
-    margin-bottom: 64px;
+    margin: 32px 0 64px;
     display: grid;
     grid-template-columns: minmax(16rem, 33.75rem);
     justify-content: center;
@@ -140,11 +140,48 @@ img {
 
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(16rem, 21.875rem));
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 21.875rem));
     justify-content: center;
     gap: 24px;
+    padding-bottom: 32px;
 }
 
 p {
     opacity: 0.5;
+}
+
+@media (min-width: 788px) {
+    
+    h1 {
+        font-size: var(--heading-1-desktop);
+        letter-spacing: 0.015625rem;
+    }
+
+    article {
+        padding: 32px;
+    }
+
+    article p {
+        margin-bottom: 46px;
+    }
+
+    article img {
+        height: 64px;
+        width: 64px;
+    }
+
+    .decoration {
+        height: 4px;
+    }
+
+}
+
+@media (min-width: 992px) and (min-height: 768px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
