@@ -58,6 +58,29 @@ article {
     flex-direction: column;
 }
 
+article::before {
+    content: "";
+    height: 3.55px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Decoration colors*/
+.supervisor::before {
+    background-color: var(--cyan);
+}
+.team-builder:before {
+    background-color: var(--tomato);
+}
+.karma::before {
+    background-color: var(--orange);
+}
+.calculator::before {
+    background-color: var(--blue);
+}
+
 article img {
     align-self: flex-end;
 }
@@ -91,20 +114,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-}
-
-/* Decoration colors*/
-.cyan {
-    background-color: var(--cyan);
-}
-.tomato {
-    background-color: var(--tomato);
-}
-.orange {
-    background-color: var(--orange);
-}
-.blue {
-    background-color: var(--blue);
 }
 
 header {
@@ -165,6 +174,10 @@ p {
         padding: 32px;
     }
 
+    article::before {
+        height: 4px;
+    }
+
     article p {
         margin-bottom: 46px;
     }
@@ -172,10 +185,6 @@ p {
     article img {
         height: 64px;
         width: 64px;
-    }
-
-    .decoration {
-        height: 4px;
     }
 
     main {
