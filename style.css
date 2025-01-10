@@ -124,21 +124,18 @@ header p {
 h1 {
     font-size: var(--heading-1-mobile);
     letter-spacing: 0.010625rem;
-    margin-bottom: 16px;
+    margin-bottom: 13px;
+    font-weight: 200;
+    line-height: 1.42;
+}
+
+h1 strong {
+    font-weight: 600;
 }
 
 h2 {
     font-size: var(--heading-2);
     font-weight: 600;
-}
-
-.heading-light {
-    font-weight: 200;
-}
-
-.heading-bold {
-    font-weight: 600;
-    margin: -3px 0;
 }
 
 img {
